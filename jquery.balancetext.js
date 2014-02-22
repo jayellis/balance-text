@@ -353,7 +353,7 @@
     // has native support for the text-wrap property, the text balanceText plugin will let
     // the browser handle it natively, otherwise it will apply its own text balancing code.
     function applyBalanceText() {
-        $(".balance-text").balanceText();
+        $("H1, H2, H3, H4, h5, h6").balanceText();
     }
 
     // Apply on DOM ready
